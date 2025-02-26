@@ -3,7 +3,7 @@ require ( './root.js' );
 const { name, height, message } = require("../index.js");
 
 describe("what-is-a-test", () => {
-  describe("Name", () => {
+  describe("Susan", () => {
     it('returns "Susan"', () => {
       expect(name).toEqual("Susan");
     });
